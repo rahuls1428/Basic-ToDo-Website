@@ -1,0 +1,9 @@
+h3 {
+  margin-bottom: 0;
+}
+
+.itemsList {
+  line-height: 1.8;
+  margin: 0;
+  /* text-transform: capitalize; -- if u want uniformity*/
+}

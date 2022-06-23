@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Our To-Do List</h1>
+    <form id="ourForm">
+      <!-- autocomplete is by default ON so suggests things user has typed in the past -->
+      <input id="ourInputField" type="text" autocomplete="off" />
+      <button>Create Item</button>
+      <!-- Note: the button tag automatically has default type = "submit"  ,
+       so no need for:  <button type="submit"></button> ,
+       https://stackoverflow.com/questions/7117639/input-type-submit-vs-button-tag-are-they-interchangeable -->
+    </form>
+    <h3>Need To Do</h3>
+    <ol id="ourList" class="itemsList" type="I"></ol>
+    <script src="todo.js"></script>
+  </body>
+</html>
